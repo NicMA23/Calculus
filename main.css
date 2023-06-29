@@ -1,0 +1,72 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #282a36;
+    color: whitesmoke;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover,
+a:active {
+    color: #eee;
+}
+
+#LIM_title1 h1 {
+    text-align: center;
+}
+
+#limiteq p {
+    float: left;
+}
+
+#limiteq img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    /* Adjust the width as needed */
+}
+
+#limiteq::before,
+#limiteq::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#problem {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 308px;
+    height: 84px;
+    background-color: rgb(27, 33, 119);
+    border: 2px solid rgb(102, 141, 195);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}

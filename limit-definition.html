@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculus">
+    <meta name="keywords" content="math, calculus, physics, eng, limit">
+    <meta name="author" content="Nícolas Amaral">
+    <title>Calculus</title>
+    <link rel="icon" href="img/logo.PNG" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../main.css" type="text/css">
+    <!-- LATEX TO HTML-->
+    <script type="text/javascript" async=""
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+</head>
+
+<body>
+    <h2><a href="/">Home</a></h2>
+    <h2><a href="limit.html">Back</a></h2>
+    <article id="lIM_title1">
+        <h1>Definition of a Limit</h1>
+    </article>
+    <article id="limiteq">
+        <p>
+            The limit of a function as
+            x approaches a certain value,
+            c, is the value that<br> the function approaches or tends to as
+            x gets arbitrarily close to
+            c.<br> It represents the behavior of the
+            function near that particular point.
+            <br><br>
+            <span class="math display">lim<sub><em>x</em>→1<sup>+</sup></sub> (<em>x</em>-1) = (1.00...1-1) = 0.00...1
+                = 0</span>
+            <br>
+            <br>
+            <span class="math display">lim<sub><em>x</em>→1<sup>-</sup></sub> (<em>x</em>-1) = (0.999...-1) = -0.00...1
+                = 0</span>
+            <br>
+            <br>
+            In calculus, a limit captures the behavior of a function as the input approaches<br>
+            a specific value.<br> One-sided limits describe the behavior as the input approaches<br> from either the
+            left or
+            the right side.For example, consider the function \(f(x) = x-1\)<br> as \(x\) approaches 1. The limit from
+            the right side (\(\lim_{{x\to
+            1^+}}\)) and the limit from the<br> left side (\(\lim_{{x\to 1^-}}\)) both approach 0.When the
+            left-sided and
+            right-sided limits<br> are equal, a limit exists at that point.<br> In this case, since \(\lim_{{x\to 1^+}}
+            (x-1) =
+            \lim_{{x\to 1^-}} (x-1) = 0\), the limit \(\lim_{{x\to 1}} (x-1)\)<br> is 0, indicating that the function
+            \(f(x)
+            = x-1\) approaches 0 as \(x\) approaches 1.
+        </p>
+        <img src="img/graphic_lim3.png" alt="$$\lim _{x\to \infty
+            \:}\left(\frac{1}{x}\right) = 0$$ graphic" title="When x goes to infty, y goes too close to 0" width="943"
+            height="943">
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculus">
+    <meta name="keywords" content="math, calculus, physics, eng, limit">
+    <meta name="author" content="Nícolas Amaral">
+    <title>Calculus</title>
+    <link rel="icon" href="img/logo.PNG" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../main.css" type="text/css">
+    <!-- LATEX TO HTML-->
+    <script type="text/javascript" async=""
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+</head>
+
+<body>
+    <h2><a href="/">Home</a></h2>
+    <h2><a href="limit.html">Back</a></h2>
+    <article id="lIM_title1">
+        <h1>Limits approaching a constant</h1>
+    </article>
+    <article id="limiteq">
+        <p>
+            <span class="math display">$$\lim _{x\to \infty
+                \:}\left(\frac{1}{x}\right) = 0$$</span>
+            <br>
+            <span class="math display">$$\lim _{x\to \infty
+                }\left(\frac{1}{x}\right)\:=\:\left(\frac{1}{\infty
+                \:}\right)\:=\:0$$</span>
+            As the numerator approaches infinity, the result tends to zero.<br>
+            As the result tends zero, this tells us that the horizontal asymptote is at zero<br>
+            However, horizontal
+            asymptotes are not always present, for example:
+            <br><br>
+            <span class="math display" id="problem">
+                $$\lim _{x\to \infty
+                \:}\frac{x^2}{2x}\:=\:\lim \:_{x\to \:\infty
+                \:\:}\frac{x}{2}\:=\:\frac{\infty }{2}\:=\infty$$
+            </span>
+
+        </p>
+        <img src="img/graphic_lim1.png" alt="$$\lim _{x\to \infty
+            \:}\left(\frac{1}{x}\right) = 0$$ graphic" title="When x goes to infty, y goes too close to 0" width="943"
+            height="943">
+    </article>
+    <article id="LIM_title2">
+        <h1>Dominant Term Theorem</h1>
+    </article>
+    <article id="limiteq2">
+        <p>
+            <span class="math display">$$\lim _{x\to \infty
+                }\left(\frac{x^6+3x^5-90x^2}{x^7-\frac{7}{4}x^4}\right)\:=\:\lim
+                \:_{x\to \:\infty \:}\frac{x^6}{x^7}=\lim \:\:_{x\to \:\:\infty
+                \:\:}\frac{1}{x}\:=\:0$$</span>
+            To find the limit of x approaching infinity for a division of polynomials, follow these three steps:
+        <ol>
+            <li>
+                Identify the dominant terms: Determine the terms with the highest degree in the numerator and<br>
+                denominator. These terms will have the greatest impact as x approaches infinity.
+            </li>
+            <br>
+            <li>
+                Simplify the dominant terms: If possible, simplify or cancel out common factors in the dominant terms
+                to<br>
+                make the expression more manageable.
+            </li>
+            <br>
+            <li>
+                Substitute x, if present, with infinity: Replace any occurrence of x in the expression with infinity
+                to<br>
+                evaluate the limit as x tends to infinity.
+            </li>
+        </ol>
+        </p>
+    </article>
+    <hr>
+    <a href="#">Back to Top</a>
+</body>
+
+</html>
