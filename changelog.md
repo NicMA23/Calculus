@@ -8,5 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2023-06-28
 # Added Changelog.md
 
+## [0.0.2] - 2023-07-06
+# Added Linear-Gradient
+
 
 
